@@ -1,0 +1,233 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BettorPlugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Sat Jun 06 2015 21:57:41 GMT+0200 (CEST)\n"
+"PO-Revision-Date: 2015-06-28 21:48+0100\n"
+"Last-Translator: Benjamin Becker\n"
+"Language-Team: \n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Loco-Source-Locale: de_DE\n"
+"X-Loco-Target-Locale: de_DE\n"
+"X-Generator: Poedit 1.8.1\n"
+
+msgid "Hello World"
+msgstr "Hallo Welt!"
+
+msgid "correct"
+msgstr "richtig"
+
+msgid "false"
+msgstr "falsch"
+
+msgid "Cashback"
+msgstr "Cashback"
+
+msgid "Tip"
+msgstr "Tipp"
+
+msgid "Odd"
+msgstr "Quote"
+
+msgid "Stake"
+msgstr "Einsatz"
+
+msgid "Result"
+msgstr "Ergebnis"
+
+msgid "Valuation"
+msgstr "Wertung"
+
+msgid "Win / Loose"
+msgstr "Gewinn / Verlust"
+
+msgid "Units"
+msgstr "Units"
+
+msgid "Win"
+msgstr "Gewinn"
+
+msgid "Loose"
+msgstr "Verlust"
+
+msgid "Post your Bets!"
+msgstr "Poste deine Wetten!"
+
+msgid "Kickoff"
+msgstr "Anstoss"
+
+msgid "League"
+msgstr "Liga"
+
+msgid "Game"
+msgstr "Spiel"
+
+msgid "Bookmaker"
+msgstr "Buchmacher"
+
+msgid "Sports"
+msgstr "Sportart"
+
+msgid "one more Bet"
+msgstr "Eine weitere Wette"
+
+msgid "Bettor Plugin"
+msgstr "Wetten Plugin"
+
+msgid "Bettor Plugin Setup - Evaluate Bet"
+msgstr "Wetten Plugin Setup- Werte Wetten aus"
+
+msgid "All bets are evaluated!"
+msgstr "Alle Wetten sind ausgewertet!"
+
+msgid "Save"
+msgstr "Speicher"
+
+msgid "For delete this bet insert \"Delete\""
+msgstr "Zum löschen gebe \"Löschen\" ein"
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Admin sports"
+msgstr "Administriere die Sportarten"
+
+msgid "Admin bookmaker"
+msgstr "Administriere die Buchmacher"
+
+msgid "Choose Picture"
+msgstr "Wähle ein Bild"
+
+msgid "Evaluate"
+msgstr "Auswertung"
+
+msgid "Back: 100% Win"
+msgstr "Back: 100% Gewinn"
+
+msgid "Back: 100% Lost"
+msgstr "Back: 100% Verlust"
+
+msgid "Back: Cashback"
+msgstr "Back: Cashback"
+
+msgid "Back: 50% Cashback - 50% Win"
+msgstr "Back: 50% Cashback - 50% Gewinn"
+
+msgid "Back: 50% Cashback - 50% Lost"
+msgstr "Back: 50% Cashback - 50% Verlust"
+
+msgid "Back: 50% Win - 50% Lost"
+msgstr "Back: 50% Gewinn - 50% Verlust"
+
+msgid "Lay: 100% Win"
+msgstr "Lay: 100% Gewinn"
+
+msgid "Lay: 100% Lost"
+msgstr "Lay: 100% Verlust"
+
+msgid "Bookmaker Link"
+msgstr "Link zum Buchmacher"
+
+msgid "Bookmaker Special Link (with JS as exampel)"
+msgstr "Buchmaker Link mit Besonderheiten (zum Beispiel Javascript)"
+
+msgid "Please fill in the fields. If you use the special link field the link and picture field will be ignored!"
+msgstr "Bitte fülle die Felder aus. Wenn du das Spezial Link Feld ausfüllst wird das Bild und der normale Link ignoriert."
+
+msgid "Please select"
+msgstr "Bitte auswählen"
+
+msgid "Categorie"
+msgstr "Kategorie"
+
+msgid "Options"
+msgstr "Einstellungen"
+
+msgid "Main Settings for Bettor Plugin"
+msgstr "Grundeinstellungen für das Wett Plugin"
+
+msgid "Change here all the options for the bettor plugin. Beware If you disable the view of the bets you hase to use use the shortcode [bettor_bet] in the post."
+msgstr "Ändere hier alle Optionen für das Wett Plugin. Pass aber auf, wenn du die Anzeige der Wetten deaktivierts musst du den Shortcade [bettor_bet] in deine Beiträge einbauen."
+
+msgid "Change color of tips (ex. Hex code:#1e77e0)"
+msgstr "Ändere die Anzeigefarbe der Wetten (Bsp. Hex code:#1e77e0)"
+
+msgid "Where to show Bets?"
+msgstr "Wo sollen die Wetten angzeigt werden?"
+
+msgid "Top"
+msgstr "Oben"
+
+msgid "Bottom"
+msgstr "Unten"
+
+msgid "Nowhere"
+msgstr "Nirgendwo"
+
+msgid "Size of the sports picture"
+msgstr "Größe des Sportartbildes"
+
+msgid "left"
+msgstr "Links"
+
+msgid "right"
+msgstr "Rechts"
+
+msgid "center"
+msgstr "Center"
+
+msgid "Align of the sports picture"
+msgstr "Ausrichtung des Sportartbildes"
+
+msgid "Value of a Unit"
+msgstr "Betrag pro Unit"
+
+msgid "Currency"
+msgstr "Währung"
+
+msgid "Get detail statistics"
+msgstr "Rufe detailierte Statistik ab"
+
+msgid "Tipps"
+msgstr "Tipps"
+
+msgid "Win in units"
+msgstr "Gewinn in Units"
+
+msgid "Win in"
+msgstr "Gewinn in"
+
+msgid "Statistics"
+msgstr "Statistik"
+
+msgid "Yield"
+msgstr "Yield"
+
+msgid "High of one unit"
+msgstr "Unithöhe"
+
+msgid "Display the statistic of your bets as widget."
+msgstr "Zeigt die Statistik deiner Wetten als Widget"
+
+msgid "Title"
+msgstr "Titel"
+
+msgid "How many month back?"
+msgstr "Zurückliegende Monate"
+
+msgid "Statistic Link"
+msgstr "Link zur Statistik"
+
+msgid "Balance"
+msgstr "Bilanz"
+
+msgid "Bets / Win / Loose / Cashback"
+msgstr "Wetten / Gewonnen / Verloren / Cashback"
+
+msgid "Bet Statistic"
+msgstr "Wetten Statistik"

@@ -1,0 +1,359 @@
+/* 
+    Created on : 07.06.2015, 11:17:12
+    Author     : benjaminbecker
+*/
+.bettor_game{
+    margin-bottom: 1em;
+    color:#1e77e0;
+}
+
+.bettor_green{
+    color:green;
+}
+
+.bettor_red{
+    color:maroon;
+}
+
+.bettor_result{
+    display: block;
+    margin-top: -1em;
+}
+
+.bettor_2size{
+    font-size: 2em;
+}
+
+.bettor_winloose{
+    display: block;
+    margin-top: -2em;
+}
+
+.bettor_block{
+    display: block;
+}
+
+.bettor_1top{
+    margin-top: 1em;
+}
+
+.bettor_1bottom{
+    margin-bottom: 1em;
+}
+
+.span_textalignvertical{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.div_80height{
+    height: 80px; 
+    line-height:80px;
+}
+.bettor_aligntop{
+    vertical-align: top;
+}
+.div_100_p_height{
+    height: 100%;
+    line-height:80px;
+}
+
+.bettor_float_left{
+    float: left;
+}
+
+img.bettor_inline{
+    display: inline !important;
+}
+
+.bettor_widget{
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+p.bettor_widget{
+    margin-top: 2em;
+}
+
+
+table.dataTable > tbody > tr.child ul {
+    display: inline !important;
+}
+
+.ui-accordion .ui-accordion-content {
+    padding: 0.5em !important;
+}
+
+.bettor_clearing { 
+    clear: both; 
+}
+
+.bettor_statistik_block{
+    text-align: justify;
+}
+
+.bettor_statistik_block:after { 
+    content: ""; 
+    display: inline-block; 
+    padding-left: 100%; 
+}
+
+/*.bettor_bets{
+    display: inline-block;
+}
+
+.bettor_win{
+    display: inline-block;
+}
+
+.bettor_yield{
+    display: inline-block;
+}*/
+
+.bettor_rounded{
+    background-color: #ffffff;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    font-size: 16px;
+    min-height: 50px;
+    padding: 8px;
+    text-align: center;
+}
+@media(min-width:1500px){
+    .bettor_bets{
+        display: inline-block;
+        min-width: 125px;
+    }
+    
+    .bettor_win{
+        display: inline-block;
+        min-width: 125px;
+    }
+
+    .bettor_yield{
+        display: inline-block;
+        min-width: 125px;
+    }
+    
+    .bettor_winsloose{
+        display: inline-block;
+        min-width: 125px;
+    }   
+    
+    .bettor_winsloose_small{
+        display: none;
+    }
+}
+
+
+@media(max-width:1500px) AND (min-width:1024px){
+    .bettor_bets{
+        display: inline-block;
+    }
+    
+    .bettor_win{
+        display: inline-block;
+    }
+
+    .bettor_yield{
+        display: inline-block;
+    }
+    
+    .bettor_winsloose{
+        display: none;
+        min-width: 125px;
+    }   
+    
+    .bettor_winsloose_small{
+        display: block;
+    }
+    
+    .bettor_statistik_block{
+
+    }
+}
+
+
+@media(max-width:1024px) AND (min-width:768px){
+    .bettor_winsloose{
+        display: none;
+        min-width: 125px;
+    }  
+    
+    .bettor_bets{
+        display: inline-block;
+        min-width: 125px;
+    }
+    
+    .bettor_win{
+        display: inline-block;
+        min-width: 125px;
+    }
+
+    .bettor_yield{
+        display: inline-block;
+        min-width: 125px;
+    }
+    
+    .bettor_winsloose_small{
+        display: block;
+    }
+    
+}
+
+@media(min-width:768px){
+    .bettor_td_1{
+        text-align: center;
+    }   
+}
+
+@media(max-width:768px) AND (min-width:480px){
+    .bettor_bets{
+        display: inline-block;
+        min-width: 125px;
+    }
+    
+    .bettor_win{
+        display: inline-block;
+        min-width: 125px;
+    }
+
+    .bettor_yield{
+        display: inline-block;
+        min-width: 125px;
+    }
+    
+    .bettor_td_1{
+        text-align: center;
+    }
+
+    .bettor_td_2{
+        display: none;
+    }
+    
+    .bettor_winsloose{
+        display: none;
+    }
+    
+    .bettor_winsloose_small{
+        display: block;
+        margin-top: 1em;
+    }
+    
+    .bettor_statistik_block{
+    }  
+}
+
+@media(max-width:480px) AND (min-width:320px){
+    .bettor_td_1{
+        text-align: center;
+    }
+
+    .bettor_td_2{
+        display: none;
+
+    }
+
+    .bettor_td_3{
+        display: none;
+    }
+
+    .bettor_td_4{
+
+    }
+
+    .bettor_td_5{
+        display: none;
+    }
+
+    .bettor_td_6{
+
+    }
+    
+    .bettor_bets{
+        display: block;
+        margin-bottom: 1em;
+        min-width: 125px;
+    }
+
+    .bettor_win{
+        display: block;
+        margin-bottom: 1em;
+        min-width: 125px;
+    }
+
+    .bettor_yield{
+        display: block;
+        margin-bottom: 1em;
+        min-width: 125px;
+    }
+    
+    .bettor_statistik_block{
+        
+    }
+    
+    .bettor_winsloose_small{
+        display: none;
+    }
+    
+    .bettor_winsloose{
+        display: block;
+    }
+}
+
+@media(max-width:320px){
+    .bettor_td_1{
+        text-align: center;
+    }
+
+    .bettor_td_2{
+        display: none;
+    }
+
+    .bettor_td_3{
+        display: none;
+    }
+
+    .bettor_td_4{
+
+    }
+
+    .bettor_td_5{
+        display: none;
+    }
+
+    .bettor_td_6{
+
+    }
+    
+    .bettor_bets{
+        display: block;
+        margin-bottom: 1em;
+        min-width: 125px;
+    }
+
+    .bettor_win{
+        display: block;
+        margin-bottom: 1em;
+        min-width: 125px;
+    }
+
+    .bettor_yield{
+        display: block;
+        margin-bottom: 1em;
+        min-width: 125px;
+    }
+    
+    .bettor_statistik_block{
+        
+    }
+    
+    .bettor_winsloose_small{
+        display: none;
+    }
+    
+    .bettor_winsloose{
+        display: block;
+    }
+}
