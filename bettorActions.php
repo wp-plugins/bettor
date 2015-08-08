@@ -237,6 +237,9 @@ function addStatistikTable() {
                     $bet_color = "bettor_red";
                     $bet_sign = "X";
                 }
+                
+                $buchmacher_arr=buchmacher($bet->buchmacher);
+                
                 $ret.='
                 <tr>
                     <td>'.date("d.m.y H:i", strtotime($bet->anstoss)).'</td>
@@ -244,7 +247,7 @@ function addStatistikTable() {
                     <td><b>'.$bet->liga.'</b><br><a href="'.get_permalink($bet->id_beitrag).'">'.$bet->spiel.'</a></td>
                     <td>'.$bet->tip.'</td>
                     <td>'.$bet->odd.'</td>
-                    <td>'.buchmacher($bet->buchmacher)[0].'</td>
+                    <td>'.$buchmacher_arr[0].'</td>
                     <td>'.$bet->einsatz.'</td>
                     <td>'.$bet->ergebnis.'</td>
                     <td><span class="'.$bet_color.'">'.$bilanz['units'] .' '. $bet_sign.'</span></td>

@@ -35,9 +35,15 @@ Copy the bettor folder to the plugin folder of your wordpress installation.
 After click active plugin the plugin is installed and you only need to fill in the sports and bookmaker section on the options page.
 
 == Screenshots ==
-1. Option Page
-2. Statistic graph
-3. Bet
+1. Option Page 1-optionpage.png
+2. Statistic graph 2-statisticgraph.png
+3. How to evaluate a bet 3-bet.png
 
 == Changelog ==
 0.1 First Version
+
+== Frequently Asked Questions ==
+None - be the first and send me Questions
+
+== Upgrade Notice ==
+Will follow when necessary
