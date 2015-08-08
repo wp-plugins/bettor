@@ -382,6 +382,7 @@ function show_tipp() {
             $textcolor = "color:" . $option['color_bet'] . ";";
         }
 
+        $buchmacher_arr=buchmacher($buchmacher);
 
         $tipp.="<div style='" . $textcolor . "' class='bettor_game'>
                     <span style='font-size: 13px; font-weight: normal;'>
@@ -403,7 +404,7 @@ function show_tipp() {
                 </div> 
                 <div class='bettor_tip'>
                     <span>
-                        " . __('Odd', 'BettorPlugin') . ": " . $odd . " @" . buchmacher($buchmacher)[0] . "
+                        " . __('Odd', 'BettorPlugin') . ": " . $odd . " @" . $buchmacher_arr[0] . "
                     </span>
                 <br>
                     <span>

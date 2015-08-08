@@ -2,8 +2,8 @@
 Contributors: sportwettenblogger
 Tags: Bettor, Wetten, Bets
 Requires at least: 3.8
-Tested up to: 4.2.2
-Stable tag: trunk
+Tested up to: 4.2.4
+Stable tag: 0.1.1
 License: GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -41,6 +41,7 @@ After click active plugin the plugin is installed and you only need to fill in t
 
 == Changelog ==
 0.1 First Version
+0.1.1 Correted some mistakes
 
 == Frequently Asked Questions ==
 None - be the first and send me Questions
